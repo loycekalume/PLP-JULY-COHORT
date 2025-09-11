@@ -29,3 +29,15 @@ lecturer2 = Lecturer("Kamau","DAA","IT")
 
 lecturer1.teach()
 lecturer2.teach()
+
+#polymorphism
+class Dog:
+    def sound(self):
+        print("I can bark")
+
+class Cow:
+    def sound(self):
+        print("I can moo😂")
+
+for animal in [Dog(), Cow()]:
+    animal.sound()
